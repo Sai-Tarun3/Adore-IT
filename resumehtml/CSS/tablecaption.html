@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Caption</title>
+</head>
+<style>
+    body{
+        text-align: left;
+    }
+    h1{
+        text-align: center;
+        background-color: red;
+    }
+    table.one{
+        border-collapse: none;
+        border-spacing: 20px;
+        caption-side: top;
+    }
+    table.two{
+        border-collapse: separate;
+        border-spacing: 20px;
+        caption-side: bottom;
+    }
+    tr.first{
+        background-color: blue;
+        color: white;
+    }
+    tr.second{
+        background-color: green;
+        color: white;
+    }
+    tr.third{
+        background-color: purple;
+        color: white;
+    }
+    table,th,td{
+        border: 2px solid greenyellow;
+    }
+</style>
+<body>
+    <h1>Table1</h1>
+    <table class="one">
+        <caption>Table-1</caption>
+        <tr class="first">
+            <th>No.</th>
+            <th>Name</th>
+            <th>ID</th>
+        </tr>
+        <tr class="second">
+            <td>1</td>
+            <td>Sai</td>
+            <td>001</td>
+        </tr>
+        <tr class="third">
+            <td>2</td>
+            <td>Tarun</td>
+            <td>007</td>
+        </tr>
+        <tr class="first">
+            <td>3</td>
+            <td>Buddala</td>
+            <td>005</td>
+        </tr>
+    </table>
+    <h1>Table2</h1>
+    <table class="two">
+        <caption>Table-2</caption>
+        <tr class="second">
+            <th>No.</th>
+            <th>Name</th>
+            <th>ID</th>
+        </tr> 
+        <tr class="third">
+            <td>1</td>
+            <td>Sai</td>
+            <td>001</td>
+        </tr>
+        <tr class="first">
+            <td>2</td>
+            <td>Tarun</td>
+            <td>007</td>
+        </tr>
+        <tr class="second">
+            <td>3</td>
+            <td>Buddala</td>
+            <td>005</td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Spacing & Collapsing</title>
+</head>
+<style>
+    body{
+        text-align: left;
+    }
+    h1{
+        text-align: center;
+        background-color: red;
+    }
+    table.one{
+        border-collapse: none;
+        border-spacing: 20px;
+    }
+    table.two{
+        border-collapse: separate;
+        border-spacing: 20px;
+    }
+    table,th,td{
+        border: 2px solid greenyellow;
+    }
+</style>
+<body>
+    <h1>Table1</h1>
+    <table class="one">
+        <tr>
+            <th>No.</th>
+            <th>Name</th>
+            <th>ID</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Sai</td>
+            <td>001</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Tarun</td>
+            <td>007</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Buddala</td>
+            <td>005</td>
+        </tr>
+    </table>
+    <h1>Table2</h1>
+    <table class="two">
+        <tr>
+            <th>No.</th>
+            <th>Name</th>
+            <th>ID</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Sai</td>
+            <td>001</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Tarun</td>
+            <td>007</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Buddala</td>
+            <td>005</td>
+        </tr>
+    </table>
+</body>
+</html>

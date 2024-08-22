@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Position-2</title>
+</head>
+<style>
+    div.main{
+        left: 50px;
+        top: 50px;
+        position: static;
+        border: 2px solid red;
+        height: 300px;
+        width: 300px;
+    }
+    div.sub{
+        left: 50px;
+        top: 50px;
+        position: relative;
+        border: 2px solid red;
+        width: 50px;
+        height: 50px;
+    }
+</style>
+<body>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus pariatur illum ullam sunt non atque unde illo doloribus. Dolorum, quasi corrupti sunt dignissimos officiis quas deleniti reprehenderit omnis perferendis voluptate!</p>
+    <div class="sub">
+        Static1
+        <div class="main">Relative1</div>
+    </div>
+</body>
+</html>
