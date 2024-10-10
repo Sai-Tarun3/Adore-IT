@@ -1,0 +1,99 @@
+Operator is a symbol that performs an action on the given operands.
+Operand is the variable or value on which the operation is done.
+	Ex: x+10	here x and 10 are operands,  + is the operator
+
+Operators are of 2 types :
+--> Unary operator
+--> Binary operator
+
+Unary operator:
+The operator that has only one operand is called unary operator
+Ex:	& (used in scanf)  !  ++  --
+
+Binary operator
+The operator that has two operands is called binary operator
+Ex:	+  -   *   /  =   >   <  ==
+
+Types of operators :
+-->  Arithmetic Operators
+-->  Relational Operators
+-->  Logical Operators
+-->  Assignment Operators
+-->  Ternary/Conditional Operators
+-->  Increment and Decrement Operators
+-->  Bitwise Operators
+-->  Pointer Operators
+-->  Special Operators
+
+Arithmetic Operators	+	-	*	/	%
+	+	addition
+	-	subtraction
+	*	multiplication
+	/	division (integer and float division)
+	%	mod operator (to calculate the remainder of an integer division)
+
+Relational Operators	>	<	==	>=	<=	!=
+	>	greater than
+	<	lesser than
+	==	equal to
+	>=	greater than or equal to
+	<=	lesser than or equal to
+	!=	not equal to
+	These operators are used to perform comparision between values/variables
+	The result of a comparision is always true or false
+	true is represented with 1   (also any non 0 value is assumed as true)
+	false is represented with 0
+
+-->  Logical Operators		&&	||	!
+	&&	logical 'and'
+	||	logical 'or'
+	!	logical 'not'
+	They are used to combine more than comparisions in a single expression
+	The result of these operators is true(1) or false(0)
+	
+	Truth table for &&(and) operator
+	cond1	cond2	cond1 && cond2
+	  F	  F		F
+	  F	  T		F
+	  T	  F		F
+	  T	  T		T
+
+	Truth table for ||(or) operator
+	cond1	cond2	cond1 || cond2
+	  F	  F		F
+	  F	  T		T
+	  T	  F		T
+	  T	  T		T
+
+	Truth table for !(not) operator
+	cond	!cond
+	  F	  T
+	  T	  F
+
+  Assignment Operators:
+the operaters are same like arthematic operators but there will be equalto(=) after the arthematic operators.
+==
++=
+-=
+*=
+/=
+%=
+Ex:if x=2
+x=x+3 can be written as x+=3
+x=x-3 can be written as x-=3
+and remaining can also be written like this.                                       
+
+
+Ternary/Conditional Operators:
+conditional operators are ?,: .
+syntax:   
+ 	Condition ? expression1 : expression2
+If condition is true then it redirects to expression-1
+If condition is false then it redirects to expression-2.
+
+
+-->  Increment and Decrement Operators
+-->  Bitwise Operators
+-->  Pointer Operators
+-->  Special Operators
+

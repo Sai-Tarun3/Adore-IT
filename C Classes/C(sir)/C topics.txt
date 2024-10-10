@@ -1,0 +1,60 @@
+Software classification
+Introduction to C language
+  History
+  structure
+    datatype
+    variable
+    i/o statements
+Example programs
+Punctuators and Operators in C  
+   Arithmetic
+   relational
+   logical 
+   assignment
+   ternary
+   incr/decr operator
+   Pointer
+   bitwise
+   special
+Control statements
+  Conditional statements
+    If-else
+    switch-case
+  Looping statements
+    for loop
+    while loop
+    do-while loop
+Functions
+  Simple functions
+     with/without return value
+     with/without arguments
+  nested calling of function
+  recurrsive function
+  creating own header files
+Arrays
+  Single dim arrays
+  multi dim arrays
+  passing arrays to functions
+Strings
+  string processing
+  string functions
+Structures and Unions
+  simple structures
+  structures with arrays
+  structures with functions
+  nested structures
+Pointers
+  Simple pointer
+  pointer to an array
+  pointer to a structure 
+  pointer to a string
+  passing pointer to functions
+  pointer to pointer
+  Dynamic memory allocation
+  pointer to files
+Files
+  Data storage
+  File processing
+A mini project 
+----------------------------------------------
+30 days (25 hrs) +/-3

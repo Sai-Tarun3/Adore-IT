@@ -1,0 +1,65 @@
+			I/O statements
+				|
+		---------------------------------
+		|				|
+	   Formatted I/O		  Unformatted I/O
+	    printf()			putc() putch() puts()
+	    scanf()			getc() getch() getche() getchar() gets()
+
+Difference b/w formatted and 			unformatted 
+	-they are for ALL datatypes		-they are only for char datatype
+	-format specifiers are used		-format specifiers are not needed
+
+Format specifiers : These are symbols used to represent the datatype of the variable
+
+	DATATYPE		FORMAT SPECIFIER
+	int			%d  or  %i
+	long int		                 %ld  
+	short int		                 %d
+	unsigned int		%u
+	float			%f
+	double			%lf	(small l)
+	long double		%Lf	(capital L)
+	char			%c
+				%s (set of characters) char name[20]
+				%o (octal numbers)
+				%x (hexa-decimal lowercase)
+				%X (hexa-decimal Uppercase)
+
+printf() and scanf() functions are present in stdio.h
+
+printf() : It is used to display any message or value of a variable/expression
+Syntax:	printf("message / format spcifiers",varaibles/expression);
+Ex:	printf("Hello all");
+Ex:	int x=3;
+	printf("%d",x);		// x is a variable
+	printf("%d",x*5);     	// x*5 is an expression
+	printf("%d",x+2*5);	// 25 wrong 13 correct  [BODMAS]  ()  ^  /  *  +  -
+Ex:	float cost=5.75;
+	printf("%f",cost);
+Ex:	char grade='B';
+	printf("%c",grade);
+
+	printf("%f",4*7.5);
+	printf("%d",9/2);
+	printf("%f",9.0/2.0); 
+
+scanf() :  This is a function used to aceept input value for a variable
+	 scanf("format specifiers",&variables);
+& symbol indicates the address of the variable
+
+Ex:  int x;
+     scanf("%d",&x);
+Ex:	float x;
+	scanf("%f",&x);
+Ex:	int x;
+	float y;
+	scanf("%d%f",&x,&y);      // nospaces or any spl. chars. in format specifiers
+	scanf("%f%d",&y,&x);
+Ex:	char x;
+	scanf("%c",&x);
+Ex: 	char name[10];
+	scanf("%s",name);   // here %s type var. should not have & symbol
+
+
+

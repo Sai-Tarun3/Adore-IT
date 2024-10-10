@@ -1,0 +1,71 @@
+Program : A program is a set of instructions.
+These set of instructions give the procedure of performing a task on the computer
+
+Programming is done by using programming languages
+
+C, C++, Java programs	<---conversion--->	Binary Language (0 or 1)
+
+			Programming Languages
+			/		    \
+		High Level Languages    Low Level Languages
+		(user understandable)   (machine understandable)
+		C, C++, Java, C#, J#	 Binary/Machine language
+		VC++, PHP, Python, HTML	  Ada Lang, Assembly lang.
+		SQL, XML, R-Lang, Ruby
+
+A high level language program (user understandable) is called "Source Code"
+A low level language program (machine understandable) is called "Object Code"
+
+Language Processors:
+They are the software used to convert a user written program (source code) into the manchine understandable code (object code).
+These language processors are:
+-->Interpretters
+-->Compilers
+-->Assemblers
+
+Working of an Interpretter
+--> It reads only one line at a time
+--> verify the accuracy of that statement
+--> if no errors, then it gives the output of that statement and repeat from step1
+--> as there is no object stored, to see the output we need re-interprettation
+
+Working of an Compiler
+--> It reads all lines of the program
+--> verify the accuracy of the entire program an list out errors if any
+--> if no errors, then it creates an object code and stores it
+--> this object code can be re-used any number of times to see the output.
+
+Assembler
+- it is a software used only for assembly language programs
+  Assembly language is NOT a completely low level language, so we need a conversion on this.
+  This conversion is done by Assembler
+
+Compilers and interpretters are different for every programming language
+
+History of programming languages
+--------------------------------
+- Initially only Binary language was used to give input
+
+- Concept of programming started using a language called ADA 
+  It is developed on the name of Lady Lovelace Ada (1st programming lang)
+
+- ForTran (Formula Translation) is the first HLL by IBM (international Business Machines) 
+   in the year 1957. It is mathametical oriented language
+
+- COBOL (Common Business Oriented Language) by CODASYL in 1959-60. It is a Business purpose language
+
+- BASIC (Beginners Allpurpose Symbolic Instruction Code) in 1964
+  by John Kemeny and Thomas Kurtz. It is a Beginner's Language
+
+- Pascal by Nicolaus Writh in 1965 on the name of Blaise Pascal
+  Scientific language used for research and development
+
+people from all over the world were called and a research was conducted to develop
+  a language that will serve all requirements
+- BCPL Basic Combined Programming Language
+- B-Language
+- C-Language developed in 1970 by Dennis Ritchie at AT&T (American Telegraphs and Telecommunications) CA, USA
+
+There is a famous saying about the C language.
+	'C' is a 'Sea'
+

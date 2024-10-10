@@ -1,0 +1,105 @@
+Structure of a C program
+------------------------
+/* comment lines */
+// single line comment
+#define <constants>
+#include <header files>
+global variables
+void main()
+{
+   local variables
+   ..................
+   ..................
+     I/O statements
+   ..................
+   ..................
+}
+user defined function()
+{
+   ..................
+      statements
+   ..................
+}
+
+Comment : 
+It is the meaning or description of a statement or a block of code.
+Comments are skipped by the compiler. It is only for readers of the program.
+We can write comments at any part of the program
+comments can be single line or multiple line
+// single line comment
+/*  multiple line comment */
+
+Constants:
+They are fixed values that are represented with a name and cannot be changed in the process of a program.
+Syntax:   #define name <value>
+    Ex:   #define PI 3.14
+	  #define A 7473
+
+Header files :
+It is called as a library file in which we have pre-defined 
+-functions, 
+-constants, 
+-datatypes and 
+-global variables
+When we include a header file into a program, all contents of that header file can be used in that program
+#include <header file name>
+Ex: #include <stdio.h>
+    #include <conio.h>
+    #include <stdlib.h>
+    #include <ctype.h>
+    #include <bios.h>
+    #include <dos.h>
+    #include <string.h>
+    #include <math.h>
+There are many header files pre-installed with the software. 
+We can also create our own header files
+
+Variables :
+A variable is a name that represents a value and it can be changed in the program.
+Variables hold values of different types (we call them as datatypes)
+
+			  Datatypes in C
+			     	|
+		---------------------------------
+		|				|
+	    Basic datatypes		Derived datatypes
+		int (2)			long int(4), short int(2), unsigned int(2)
+		float (4)		double(8), long double(10)
+		char (1)
+
+int 	: +/- values without decimal point
+	  Ex:   -2     2     0
+float	: +/- values with decimal point
+	  Ex:   2.5   -2.5   0.0    2.0
+char	: any one alphabet or symbol or digit given within ' ' single quotes
+	  Ex:  'a'   '+'   '6'
+
+Before using a variable in the program we have to declare it.
+	Datatype <variables>;
+	int rno, sno, age, no_of_students, marks;
+	float height, weight, cost, avg;
+	char grade, section, gender;
+	
+If the variable is declared before main(), it is called global variable.
+A global variable scope is in the entire program.
+
+If the variable is declared inside main() block or inside any function block, it is called local variable.
+A local variable scope is limited to the block in which it is declared
+
+
+main()
+It is a compulsory function for every C program
+() indicates that it is a function
+A program must contain main()
+Object code cannot be created if main() function is not given
+
+I/O statements
+Input and output statements are used to accept values from user and display values to the user
+
+
+
+
+
+	
+
+

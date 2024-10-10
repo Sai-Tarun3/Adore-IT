@@ -1,0 +1,88 @@
+Control Statements
+------------------
+They are used to control the flow of execution of the program.
+
+1) Conditional statements
+   (a) If-else
+   (b) switch-case
+2) Looping statements
+   (a) for loop
+   (b) while loop
+   (c) do-while loop
+
+If-else : It is conditional statement in which we check a condition.
+	  if the condition is true, we want some statements to execute
+	  if the condition is false, we want some other statements to execute
+
+if-else is of 2 types
+	Simple if-else 			Nested if-else
+
+	if (condition)			if (condition)
+	{				{
+	   ...statements...		  ...statements...
+	}				}
+	else				else if (condition)
+	{				{
+	   ...statements...		  ...statements...
+	}				}
+					else
+					{
+					  ...statements...
+					}
+
+- When an 'if condition' given inside another 'if condition' is called nested if else
+- 'else' is an optional block
+- if the condition is true, the first block is executed 
+   otherwise the 'else' block is executed
+- condition can be one or many. To write many conditions we use logical operators
+- the block indicators {} are necessary only when we have more than one statement in the block
+
+Switch-case
+-----------
+switch(variable)
+{
+   case <value> : ....statements....
+		  break;
+   case <value> : ....statements....
+		  break;
+	|
+	|
+	|
+   default : ....statements....
+}
+
+-The 'switch' variable must be int or char datatypes only (float is not allowed)
+-switch-case can be used to compare individual values only. Range of values cannot be compared
+-Every 'case' block must have 'break'. If 'break' is not given, all statments
+  until the next occuring 'break' or until the end of switch will be executed.
+-There can be any number of 'case' blocks but if required the 'default' block must
+  be given only at the end.
+-'default' block will execute when none of the case values match to switch(variable)
+
+--------------------------------------------------------------------------------
+Loops are statements used to perform itterative operations
+a) for loop
+b) while loop
+c) do-while loop
+
+For Loop
+Syntax : for (var=initial value ; final value condition ; increment/decrement)
+	 {
+	    ....statements....
+	 }
+
+
+	 while loop 			  do-while loop
+Syntax : while (condition)		  do
+	 {				  {
+	    ...statements...		     ...statements...
+	 }				  } while (condition);
+
+	Entry controlled loop		  Exit controlled loop
+	loop may not execute execute 	  Loop block executes atleast once
+	 even once if the cond is false    irrespective of the condition
+
+
+
+
+

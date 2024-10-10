@@ -1,0 +1,26 @@
+Computer is a machine made of 2 components
+Hardware : all physical components of system are called hardware
+Software : software is a set of programs used to automate a job.
+
+			Software classification
+			/                         \
+		System s/w                 Application s/w
+		/	\	/	      \        
+                 	               O/S     Utilities          Languages     Packages
+
+O/S	It is a software that manages all activities of a computer
+	It performs 3 major tasks:
+	- command interprettation   (Eng <----> Binary)
+	- memory management	(RAM, ROM are managed)
+	- device management	(I/O devices and storage devices)
+	Ex: MS-DOS, windows, unix, linux, solaris, MAC, android, iOS
+
+Utilities :  They are 3rd party tools used for device related extra facilities
+	Ex: device driver, A/V players, Browsers, Anti-Virus s/w
+
+Languages :  They are used for writing programs. They help in automation of a task.
+	EX: C, C++, java, python, C#.net, J#, Ruby, R-lang, SQL, ....
+
+Packages :  A package is a readymade software. It is a collection of programs.
+	Ex: Tally, MS Office, AutoCAD, SAP, Oracle, Photoshop, Flash, Maya
+------------------------------------------------------------------
